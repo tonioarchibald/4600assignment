@@ -18,6 +18,7 @@ public class Find_Number {
 			if (inputNo == randNo) {
 				System.out.println("Correct!!");
 				System.out.println("You guessed in " + userAttempt + "  attempts.");
+				System.out.println("HOORAH");
 			}
 			userAttempt++;
 		} while (inputNo != randNo);
